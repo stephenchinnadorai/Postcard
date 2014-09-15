@@ -81,6 +81,15 @@
                                     <rect key="frame" x="16" y="72" width="288" height="60"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3df-Td-wbY">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="123" width="200" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -90,6 +99,7 @@
                                 <exclude reference="4M0-mq-9ng"/>
                                 <exclude reference="OCg-9p-rlt"/>
                                 <exclude reference="JT7-SY-1Vs"/>
+                                <exclude reference="3df-Td-wbY"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -99,6 +109,7 @@
                                 <include reference="4M0-mq-9ng"/>
                                 <include reference="OCg-9p-rlt"/>
                                 <include reference="JT7-SY-1Vs"/>
+                                <include reference="3df-Td-wbY"/>
                             </mask>
                         </variation>
                     </view>
@@ -107,6 +118,7 @@
                         <outlet property="enterNameTextField" destination="84R-Cg-pTo" id="6Kd-ao-ZPH"/>
                         <outlet property="mailButton" destination="OCg-9p-rlt" id="Aed-lB-X8x"/>
                         <outlet property="messageLabel" destination="JT7-SY-1Vs" id="jks-FF-X1K"/>
+                        <outlet property="nameLabel" destination="3df-Td-wbY" id="enj-x5-zdC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
