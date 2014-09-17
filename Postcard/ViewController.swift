@@ -11,13 +11,9 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var nameLabel: UILabel!
-
     @IBOutlet weak var messageLabel: UILabel!
-    
     @IBOutlet weak var enterNameTextField: UITextField!
-    
     @IBOutlet weak var enterMessageTextField: UITextField!
-    
     @IBOutlet weak var mailButton: UIButton!
     
     
